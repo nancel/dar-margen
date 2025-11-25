@@ -281,7 +281,7 @@ export default function HomePage() {
                   className="flex items-center gap-3 hover:opacity-80 transition-opacity"
                 >
                   <Mail className="h-5 w-5" />
-                  <span>info@darmargen.org</span>
+                  <span>info@darmargen.org.ar</span>
                 </Link>
                 <Link href="tel:+5491161724812" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
                   <Phone className="h-5 w-5" />
