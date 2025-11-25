@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
-import { Instagram, Mail, Phone, BookOpen, Users, FileText, Megaphone, Menu, X } from "lucide-react"
+import { Instagram, Mail, Phone, BookOpen, Users, FileText, Megaphone, Menu, X, PenTool } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { SectionDivider } from "@/components/section-divider"
@@ -39,7 +39,7 @@ export default function HomePage() {
     }
   }
 
-  const activityIcons = [BookOpen, Users, FileText, Megaphone]
+  const activityIcons = [BookOpen, PenTool, FileText, Megaphone, Users]
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -53,7 +53,7 @@ export default function HomePage() {
               <img
                 src="/images/logo-20dar-20margen-202024-20-28trasparente-29.png"
                 alt="Dar Margen Logo"
-                className="h-10 w-auto"
+                className="h-15 w-auto"
               />
             </div>
 
@@ -155,7 +155,7 @@ export default function HomePage() {
                   <img
                     src="/images/logo-20dar-20margen-202024-20-28trasparente-29.png"
                     alt="Dar Margen"
-                    className="h-32 md:h-40 w-auto mb-6"
+                    className="h-40 md:h-70 w-auto mb-4"
                   />
                   <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty text-center lg:text-left">
                     {t.hero.subtitle}
@@ -244,6 +244,7 @@ export default function HomePage() {
                   <p>{t.collaborate.bank}</p>
                   <p>{t.collaborate.accountNumber}</p>
                   <p className="font-mono text-sm">{t.collaborate.cbu}</p>
+                  <p className="font-mono text-sm">{t.collaborate.alias}</p>
 
                   <div className="pt-4 space-y-3 border-t mt-4">
                     <p className="text-sm leading-relaxed">{t.collaborate.contact}</p>
@@ -264,7 +265,7 @@ export default function HomePage() {
               <img
                 src="/images/logo-20dar-20margen-202024-20-28trasparente-29.png"
                 alt="Dar Margen"
-                className="h-12 w-auto brightness-0 invert"
+                className="h-15 w-auto brightness-0 invert"
               />
               <div className="space-y-2">
                 <p className="font-semibold">{t.footer.name}</p>

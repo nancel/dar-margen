@@ -14,12 +14,36 @@ const images = [
     alt: "Actividad educativa con participantes",
   },
   {
-    url: "/images/dsc0017.jpg",
+    url: "/images/dsc0170.jpg",
+    alt: "Presentación de Escritura Cárcel",
+  },
+  {
+    url: "/images/Untitled.jpeg",
     alt: "Exposición de publicaciones",
   },
   {
-    url: "/images/dsc0170.jpg",
-    alt: "Presentación de Escritura Cárcel",
+    url: "/images/Untitled2.jpeg",
+    alt: "Exposición de publicaciones",
+  },
+  {
+    url: "/images/Untitled3.jpeg",
+    alt: "Exposición de publicaciones",
+  },
+  {
+    url: "/images/Untitled4.jpeg",
+    alt: "Exposición de publicaciones",
+  },
+  {
+    url: "/images/Untitled5.jpeg",
+    alt: "Exposición de publicaciones",
+  },
+  {
+    url: "/images/Untitled6.jpeg",
+    alt: "Exposición de publicaciones",
+  },
+  {
+    url: "/images/Untitled7.jpeg",
+    alt: "Exposición de publicaciones",
   },
 ]
 

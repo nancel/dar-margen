@@ -27,7 +27,7 @@ export const translations = {
         "Participamos en redes y proyectos que buscan incidir en los procesos de organización social y la creación de políticas vinculadas al tema.",
       ],
       description:
-        "Trabajamos con jóvenes y adultos detenidos en complejos penitenciarios y centros de régimen cerrado, personas con prisión domiciliaria y con medidas alternativas al encarcelamiento. Desarrollamos actividades en instituciones y espacios educativos y comunitarios. Nuestra tarea está dirigida a una población compuesta por varones, mujeres y personas trans, de distintas edades, cuyas historias de vida están marcadas por la violencia institucional, la vulneración de derechos y la marginación.",
+        "Nuestra tarea está dirigida a una población compuesta por varones, mujeres y personas trans, de distintas edades, cuyas historias de vida están marcadas por la violencia institucional, la vulneración de derechos y la marginación. Trabajamos con jóvenes y adultos detenidos en complejos penitenciarios y centros de régimen cerrado, personas con prisión domiciliaria y con medidas alternativas al encarcelamiento. Desarrollamos actividades en instituciones y espacios educativos y comunitarios.",
       closing:
         "A través de nuestro trabajo y acciones buscamos reducir el daño provocado por el encierro, romper el aislamiento, combatir estigmas y promover la integración social.",
     },
@@ -41,6 +41,7 @@ export const translations = {
       bank: "Banco Credicoop",
       accountNumber: "Número de cuenta: 191-241-015747/9",
       cbu: "CBU: 1910241055024101574796",
+      alias: "Alias: darmargen",
       contact:
         "Para informar una donación, realizar donaciones en moneda extranjera u otro tipo de aporte, por favor contactarse a info@darmargen.org.ar o al +54 9 11 6172-4812.",
       receipt:
@@ -48,7 +49,7 @@ export const translations = {
     },
     footer: {
       name: "Asociación civil Dar Margen",
-      address: "Av. Entre Ríos 1250 1 C (C1133AAU) Ciudad Autónoma de Buenos Aires, Argentina",
+      address: "Av. Entre Ríos 1940 1 C (C1133AAU) Ciudad Autónoma de Buenos Aires, Argentina",
     },
   },
   en: {
@@ -62,45 +63,46 @@ export const translations = {
     hero: {
       title: "Dar Margen",
       subtitle:
-        "We are a nonprofit civil association from Buenos Aires, Argentina, composed of educators, professionals, and activists with over twenty years of experience in prisons. We promote inclusion through writing, accompaniment, and training in rights and cultural trades. We appeal to the critical power of the margins to creatively transform reality.",
+        "We are a non-profit civil association based in Buenos Aires, Argentina, constituted by educators, professionals, and activists with over twenty years of experience working in prisons. We promote inclusion through writing, support, and training in rights and cultural crafts. We draw on the critical potential of the margins to creatively transform reality.",
     },
     objective: {
-      title: "Objective",
+      title: "Mission",
       content:
-        "Our objective is to expand access to education, culture, and work for people affected by criminal justice and incarceration. We seek to open opportunities by generating projects and networks that promote human rights and inclusion with social justice.",
+        "Our mission is to expand access to education, culture, and employment opportunities for people impacted by the criminal justice system. We work to create new opportunities by developing projects and networks that promote human rights and inclusion, grounded in a deep commitment to social justice.",
     },
     activities: {
       title: "Activities",
       items: [
-        "We accompany educational trajectories and cultural projects of people who are or were deprived of liberty.",
-        "We offer writing courses and workshops on rights and cultural trades inside and outside prison.",
-        "We publish books, magazines, and podcasts produced in our courses and workshops.",
-        "We organize talks and meetings to share experiences and intervene in the public conversation about crime and punishment.",
-        "We participate in networks and projects that seek to influence processes of social organization and the creation of related policies.",
+        "Supporting educational programmes and cultural projects for the inclusion of currently or formerly incarcerated people.",
+        "Offering writing courses and workshops on rights and artistic and cultural crafts, both inside and outside prison.",
+        "Publishing books, magazines and podcasts featuring material produced in prison.",
+        "Organizing talks and public events to share experiences and intervene in the public conversation about crime and punishment.",
+        "Building strategic alliances with organisations and institutions working in prisons, to influence social organisation processes and the development of policies related to education and culture in prisons.",
       ],
       description:
-        "We work with young people and adults detained in penitentiary complexes and closed regime centers, people under house arrest and with alternative measures to incarceration. We develop activities in institutions and educational and community spaces. Our work is directed at a population composed of men, women, and trans people of different ages, whose life stories are marked by institutional violence, violation of rights, and marginalization.",
+        "Our work is aimed at a population composed of cis and trans men and women of different ages and backgrounds, whose life stories are marked by institutional violence, human rights violations, and marginalisation. We work with young people and adults detained in prisons and other closed facilities, as well as with people under house arrest or alternative measures to imprisonment. We carry out activities in educational, cultural and community institutions and spaces both inside and outside prison. ",
       closing:
-        "Through our work and actions, we seek to reduce the harm caused by confinement, break isolation, combat stigmas, and promote social integration.",
+        "Through our work and actions, we aim to reduce the damage caused by incarceration, break isolation, counter stigma, and promote social integration. ",
     },
     collaborate: {
-      title: "How to collaborate",
+      title: "How to Support our Work",
       intro:
-        "We receive donations in money and equipment and supplies (stationery items, computers, printers, toner, etc.). Every contribution, no matter how small, helps us sustain our activities and launch new projects. Your collaboration is essential to continue promoting education, culture, and inclusion in contexts crossed by violence and exclusion.",
-      bankDetails: "Bank account details:",
+        "We accept monetary donations as well as equipment and supplies. Every contribution, no matter how small, helps sustain our activities and launch new projects. Your support is essential to continue  promoting  education, culture, and inclusion in contexts affected by violence and exclusion.",
+      bankDetails: "Bank Account Information:",
       holder: "Account holder: ASOC CIVIL DAR MARGEN",
       cuit: "Tax ID (CUIT): 30-71851061-5",
       bank: "Bank: Banco Credicoop",
       accountNumber: "Account number: 191-241-015747/9",
       cbu: "CBU: 1910241055024101574796",
+      alias: "Alias: darmargen",
       contact:
-        "To report a donation, make donations in foreign currency, or make another type of contribution, please contact info@darmargen.org.ar or +54 9 11 6172-4812.",
+        "To report a donation, make a contribution in foreign currency, or explore other ways to support our work , please contact us at info@darmargen.org.ar or +54 9 11 6172-4812.",
       receipt:
-        "If you make a donation, please send your personal information by email, including ID, tax ID number (CUIT or CUIL), for receipt preparation.",
+        "If you make a donation, please send us your personal information by email—including ID number (DNI), CUIT, or CUIL—so we can issue a receipt.",
     },
     footer: {
       name: "Dar Margen Civil Association",
-      address: "Av. Entre Ríos 1250 1 C (C1133AAU) Autonomous City of Buenos Aires, Argentina",
+      address: "Av. Entre Ríos 1940 1 C (C1133AAU) Autonomous City of Buenos Aires, Argentina",
     },
   },
 } as const
