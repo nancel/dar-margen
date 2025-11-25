@@ -102,7 +102,7 @@ export const translations = {
     },
     footer: {
       name: "Dar Margen Civil Association",
-      address: "Av. Entre Ríos 1940 1 C (C1133AAU) Autonomous City of Buenos Aires, Argentina",
+      address: "Av. Entre Ríos 1940 1 C (C1133AAU) Buenos Aires, Argentina",
     },
   },
 } as const

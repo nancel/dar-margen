@@ -13,21 +13,29 @@ export const metadata: Metadata = {
     "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
   generator: "v0.app",
   icons: {
-    icon: [
+    icon: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
+    apple: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
+  },
+  openGraph: {
+    title: "Dar Margen - Asociación Civil",
+    description:
+      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
+    images: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
+        url: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
+        width: 1200,
+        height: 630,
+        alt: "Dar Margen - Asociación Civil",
       },
     ],
-    apple: "/apple-icon.png",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dar Margen - Asociación Civil",
+    description:
+      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
+    images: ["/images/logo-20dar-20margen-202024-20-28trasparente-29.png"],
   },
 }
 
