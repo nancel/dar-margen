@@ -277,7 +277,7 @@ export default function HomePage() {
               <h3 className="font-semibold text-lg">{t.nav.contact}</h3>
               <div className="space-y-3">
                 <Link
-                  href="mailto:info@darmargen.org"
+                  href="mailto:info@darmargen.org.ar"
                   className="flex items-center gap-3 hover:opacity-80 transition-opacity"
                 >
                   <Mail className="h-5 w-5" />
