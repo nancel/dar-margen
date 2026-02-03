@@ -26,10 +26,6 @@ const images = [
     alt: "Exposición de publicaciones",
   },
   {
-    url: "/images/Untitled3.jpeg",
-    alt: "Exposición de publicaciones",
-  },
-  {
     url: "/images/Untitled4.jpeg",
     alt: "Exposición de publicaciones",
   },
@@ -39,10 +35,6 @@ const images = [
   },
   {
     url: "/images/Untitled6.jpeg",
-    alt: "Exposición de publicaciones",
-  },
-  {
-    url: "/images/Untitled7.jpeg",
     alt: "Exposición de publicaciones",
   },
 ]
