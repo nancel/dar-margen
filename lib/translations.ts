@@ -108,3 +108,9 @@ export const translations = {
 } as const
 
 export type Language = keyof typeof translations
+export const LOCALES: readonly Language[] = ["es", "en"] as const
+export type Locale = (typeof LOCALES)[number]
+
+export function isLocale(value: string): value is Locale {
+  return LOCALES.includes(value as Locale)
+}
