@@ -1,7 +1,8 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { usePathname, useRouter } from "next/navigation"
 import Link from "next/link"
+import { useState, useEffect } from "react"
 import { Instagram, Mail, Phone, BookOpen, Users, FileText, Megaphone, Menu, X, PenTool } from "lucide-react"
 import { ImageCarousel } from "@/components/image-carousel"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -10,8 +11,13 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { translations, type Language } from "@/lib/translations"
 
-export default function HomePage() {
-  const [language, setLanguage] = useState<Language>("es")
+export function HomePage({ initialLocale }: { initialLocale: Language }) {
+  const pathname = usePathname()
+  const router = useRouter()
+  const localeFromUrl = pathname?.split("/")[1] as Language | undefined
+  const language: Language =
+    localeFromUrl === "es" || localeFromUrl === "en" ? localeFromUrl : initialLocale
+
   const [isHeroVisible, setIsHeroVisible] = useState(true)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const t = translations[language]
@@ -37,6 +43,10 @@ export default function HomePage() {
       element.scrollIntoView({ behavior: "smooth" })
       setIsMobileMenuOpen(false)
     }
+  }
+
+  const handleLanguageChange = (newLang: Language) => {
+    router.push(`/${newLang}`)
   }
 
   const activityIcons = [BookOpen, PenTool, FileText, Megaphone, Users]
@@ -91,7 +101,7 @@ export default function HomePage() {
             </nav>
 
             <div className="flex items-center gap-2">
-              <LanguageSwitcher currentLanguage={language} onLanguageChange={setLanguage} />
+              <LanguageSwitcher currentLanguage={language} onLanguageChange={handleLanguageChange} />
 
               <Button
                 variant="ghost"
