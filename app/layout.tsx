@@ -7,35 +7,67 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://darmargen.org.ar"
+
 export const metadata: Metadata = {
-  title: "Dar Margen - Asociación Civil",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Dar Margen - Asociación Civil",
+    template: "%s | Dar Margen",
+  },
   description:
-    "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
-  generator: "v0.app",
+    "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales. Buenos Aires, Argentina.",
+  keywords: [
+    "Dar Margen",
+    "asociación civil",
+    "inclusión",
+    "escritura",
+    "cárceles",
+    "derechos humanos",
+    "educación",
+    "talleres",
+    "Buenos Aires",
+    "Argentina",
+    "justicia social",
+  ],
+  authors: [{ name: "Dar Margen", url: siteUrl }],
+  creator: "Dar Margen",
+  publisher: "Dar Margen",
+  formatDetection: { email: false, address: false, telephone: false },
+  robots: {
+    index: true,
+    follow: true,
+  },
   icons: {
-    icon: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
-    apple: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
+    icon: "/logoshare.png",
+    apple: "/logoshare.png",
   },
   openGraph: {
     title: "Dar Margen - Asociación Civil",
     description:
-      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
+      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales.",
+    url: siteUrl,
+    siteName: "Dar Margen",
     images: [
       {
-        url: "/images/logo-20dar-20margen-202024-20-28trasparente-29.png",
+        url: "/logoshare.png",
         width: 1200,
         height: 630,
         alt: "Dar Margen - Asociación Civil",
       },
     ],
     type: "website",
+    locale: "es_AR",
   },
   twitter: {
     card: "summary_large_image",
     title: "Dar Margen - Asociación Civil",
     description:
-      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales",
-    images: ["/images/logo-20dar-20margen-202024-20-28trasparente-29.png"],
+      "Promovemos la inclusión a través de la escritura, el acompañamiento y la formación en derechos y oficios culturales.",
+    images: ["/logoshare.png"],
+  },
+  alternates: {
+    canonical: siteUrl,
   },
 }
 
